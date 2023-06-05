@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.picname{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 15vh;
+    padding-bottom: 10vh;
+    background-color: #eda2a2;
+}
+
+img{
+    width: 35vh;
+}
+.proname{
+   font-size: 5vh;
+}
+
+.about{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    background-color: #eda2a2;
+
+}
+.abouthead{
+    font-size: 5vh;
+}
+
+.aboutcontent{
+    padding-left: 20vh;
+    padding-right: 20vh;
+    text-align: center;
+    padding-top: 5vh;
+    font-size: 2.8vh;
+}
+
+.myskill{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10vh;
+    background-color: cornsilk
+}
+
+.skillhead{
+    font-size: 5vh;
+}
+
+.skillcontent{
+    padding-left: 20vh;
+    padding-right: 20vh;
+    text-align: center;
+    padding-top: 5vh;
+    font-size: 2.8vh;
+}
+
+.education{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10vh;
+    background-color: aliceblue;
+}
+
+.eduhead{
+    font-size: 5vh;
+}
+
+.educontent{
+    padding-left: 20vh;
+    padding-right: 20vh;
+    text-align: center;
+    padding-top: 5vh;
+    font-size: 2.8vh;
+}
+
+ul{ 
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+  }
+.navigation{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2vh;
+    font-size: 3vh;
+    background-color: #ffffff;
+}
+
+.navul{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.navul > li {
+    padding: 5px;
+}
+
+.navul > li:hover{
+    cursor: pointer;
+    color: azure;
+}
+
+a{
+    color: black;
+}
+
+
+.contact    {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2vh;
+    font-size: 3vh;
+    background-color: #ffffff;
+}
+
+.contcontact{
+    padding-left: 20vh;
+    padding-right: 20vh;
+    text-align: center;
+    padding-top: 5vh;
+    padding-bottom: 10vh;
+    font-size: 2.8vh;
+}
+
+label{
+    font-size: 15px;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2vh;
+    background-color: #edaa5b;
+}
